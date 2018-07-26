@@ -24,6 +24,6 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^2.0.0",
-    "electron-packager":"^6.0.0"
+    "electron-packager":"^7.0.0"
   }
 }
