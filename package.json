@@ -1,11 +1,11 @@
 {
-  "name": "electron-quick-start",
+  "name": "Whitebook Desktop",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "O começo do desktop",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "win32": "electron-packager . Whitebook --platform=win32 --arch=ia32",
+    "win32": "electron-packager . Whitebook --platform=win32 --arch=ia32 --icon=assets/icons/1024x1024.ico",
     "win64": "electron-packager . Whitebook --platform=win32 --arch=x64",
     "linux32": "electron-packager . Whitebook --platform=linux --arch=ia32",
     "linux64": "electron-packager . Whitebook --platform=linux --arch=x64",
