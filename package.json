@@ -5,12 +5,12 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "win32": "electron-packager . Whitebook --platform=win32 --arch=ia32 --icon=assets/icons/1024x1024.ico --asar=true --overwrite",
+    "win32": "electron-packager . Whitebook --platform=win32 --arch=ia32 --icon=assets/icons/win/iconeWin.ico --asar=true --overwrite",
     "win64": "electron-packager . Whitebook --platform=win32 --arch=x64",
     "linux32": "electron-packager . Whitebook --platform=linux --arch=ia32",
     "linux64": "electron-packager . Whitebook --platform=linux --arch=x64",
     "osx": "electron-packager . Whitebook --platform=darwin --arch=x64",
-    "build": "electron-packager . --out=dist/win --platform=win32 --arch=x64 --icon=assets/icons/1024x1024.ico --asar=true --overwrite"
+    "build": "electron-packager . --out=dist/win --platform=win32 --arch=x64 --icon=assets/icons/win/iconeWin.ico --asar=true --overwrite"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
