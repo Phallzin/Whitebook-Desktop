@@ -1,6 +1,7 @@
 // Modules to control application life and create native browser window
 const {app, BrowserWindow} = require('electron')
 var path = require('path')
+Analytics(trackingID, { userAgent, debug, version })
 import Analytics from 'electron-google-analytics';
 const analytics = new Analytics('UA-59001429-50');
 
