@@ -1,6 +1,15 @@
 // Modules to control application life and create native browser window
 const {app, BrowserWindow} = require('electron')
 var path = require('path')
+import Analytics from 'electron-google-analytics';
+const analytics = new Analytics('UA-59001429-50');
+
+return analytics.pageview('http://whitebook.com.br', '/home', 'Example')
+  .then((response) => {
+    return response;
+  }).catch((err) => {
+    return err;
+  });
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
